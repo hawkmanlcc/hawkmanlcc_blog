@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>关于我 - 李晨琛的旅行小站</title>
+<link rel="shortcut icon" href="images/favicon.ico"/>
+<!--banner中引入的css及js  start-->
+<link href="menu/css/dcmegamenu.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type='text/javascript' src='menu/js/jquery.hoverIntent.minified.js'></script>
+<script type='text/javascript' src='menu/js/jquery.dcmegamenu.1.3.3.js'></script>
+<script type="text/javascript">
+$(document).ready(function($){
+	$('#mega-menu-1').dcMegaMenu({
+		rowItems: '3',
+		speed: 0,
+		effect: 'slide',
+		event: 'click',
+		fullWidth: true
+	});
+	$('#mega-menu-2').dcMegaMenu({
+		rowItems: '1',
+		speed: 'fast',
+		effect: 'fade',
+		event: 'click'
+	});
+	$('#mega-menu-3').dcMegaMenu({
+		rowItems: '2',
+		speed: 'fast',
+		effect: 'fade'
+	});
+	$('#mega-menu-4').dcMegaMenu({
+		rowItems: '3',
+		speed: 'fast',
+		effect: 'fade'
+	});
+	$('#mega-menu-5').dcMegaMenu({
+		rowItems: '4',
+		speed: 'fast',
+		effect: 'fade'
+	});
+	$('#mega-menu-6').dcMegaMenu({
+		rowItems: '3',
+		speed: 'slow',
+		effect: 'slide',
+		event: 'click',
+		fullWidth: true
+	});
+	$('#mega-menu-7').dcMegaMenu({
+		rowItems: '3',
+		speed: 'fast',
+		effect: 'slide'
+	});
+	$('#mega-menu-8').dcMegaMenu({
+		rowItems: '3',
+		speed: 'fast',
+		effect: 'fade'
+	});
+	$('#mega-menu-9').dcMegaMenu({
+		rowItems: '3',
+		speed: 'fast',
+		effect: 'fade'
+	});
+});
+</script>
+
+<link href="menu/css/skins/light_blue.css" rel="stylesheet" type="text/css" />
+<!--end-->
+<!--接入微博-->
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+<!--end-->
+<style type="text/css">
+/*设置大层CSS选择符*/
+body {
+	font-family:微软雅黑;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+}
+
+a, a:link {
+	text-decoration: none;
+	color:#000;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:visited {
+	color:#800080;
+}
+
+/*网页头部，包括LOGO、注册、登录按钮*/
+#header {
+	width:960px;
+	height:80px;
+	margin-top:0px;
+	margin:auto;
+}
+#logo_area {
+	float:left;
+	height:50px;
+	width:300px;
+	margin-top:20px;
+	margin-left:20px;
+	margin-footer:10px;
+	cursor:pointer;
+    display:inline;
+}
+#register_area {
+	float:right;
+	height:36px;
+	width:144px;;
+	margin-top:44px;
+	margin-right:20px;
+}
+
+/*导航栏，包括各子页面的链接*/
+#banner {
+	background:url(images/banner.gif) repeat;
+	width:100%;
+    height:40px;
+}
+#menu_area {
+	width:960px;
+    height:40px;
+    margin:auto;
+}
+
+/*您的位置*/
+#breadcrumb {
+	width:960px;
+	height:30px;
+	margin:10px auto 0;
+}
+#breadcrumb_area {
+	width:940px;
+	height:20px;
+	margin-left:10px;
+	font-size:14px;
+}
+
+/*关于我们内容*/
+#about {
+	width:940px;
+	height:250px;
+	margin:0px auto 10px;
+	background:url(images/AboutUs/AboutUs.png);
+	background-repeat:no-repeat;
+}
+#about-content {
+    color:black;
+	font-family:微软雅黑;
+    font-size: 16px;
+    line-height: 2.3em;
+    margin-top: 0px;
+	text-align:center;
+    overflow: visible;
+}
+#us {
+	width:940px;
+	height:270px;
+	margin:20px auto;
+	text-align:center;
+}
+#us div {
+	width:280px;
+}
+#d1 {
+	float:left;
+	margin:25px 30px 25px 180px;
+}
+#d2 {
+	float:left;
+	line-height:40px;
+	margin:25px 25px;
+	font-size:20px;
+}
+#d3 {
+	float:right;
+	margin-right:20px;
+}
+.weibo{
+    
+}
+.name {
+	color:black;
+	font-family:楷体,微软雅黑;
+    font-size: 16px;
+	font-weight:bold;
+	letter-spacing:2px;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+.word {
+	color:black;
+	font-family:微软雅黑;
+	font-style:italic;
+	font-size:14px;
+	letter-spacing:2px;
+}
+
+/*底部*/
+#footer {
+	width:940px;
+	height:120px;
+	margin:auto;
+	background-image:url(images/footer_picture.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+#rights {
+	float:left;
+	width:700px;
+	height:40px;
+	margin-top:20px;
+	color: black;
+    font-size: 12px;
+}
+
+</style>
+</head>
+
+<body>
+<!--头部布局部分-->
+<div id="header">
+    <div id="logo_area">
+         <img src="images/logo1.png" alt="铁道上">
+    </div>
+   
+</div>
+
+<!--导航栏布局部分-->
+<div id="banner">
+
+<div class="wrap">
+
+ <div class="light-blue"> 
+<ul id="mega-menu-8" class="mega-menu">
+	<li><a href="index.html" class="STYLE2">首页</a></li>
+				
+	
+	
+<li><a href="index.html" class="STYLE1">游踪札记</a>
+		<ul>
+			
+			<li><a href="#">城市美景</a>
+			    <ul>
+					<li><a href="yueyang.html">名楼之旅——岳阳</a></li>
+					<li><a href="wuhan.html">荆楚名都——武汉</a></li>
+                    <li><a href="yichang.html">壮美三峡——宜昌</a></li>
+					<li><a href="changsha.html">湘雅之地——长沙</a></li>
+					<li><a href="zhangjiajie.html">神仙秘境——张家界</a></li>
+					<li><a href="guangzhou.html">穗城风光——广州</a></li>
+				</ul>
+			</li>
+			<li><a href="#">推荐线路</a>
+			    <ul>
+					<li><a href="fenghuang1day.html">神秘湘西一日游——凤凰古城</a></li>
+					<li><a href="yueyang2days.html">江南名楼两日游——岳阳站</a></li>
+					<li><a href="wuhandichengben.html">低成本出游攻略——武汉</a></li>
+					<li><a href="enshi1day.html">魅力鄂西一日游——恩施</a></li>
+					
+					
+				</ul>
+			</li>
+			
+			
+		</ul>
+	</li>
+
+<li><a href="TourRoute.html">铁道游踪</a>
+</li>
+<li><a href="Aboutme.html">关于我</a></li>
+</ul>
+<!--搜索框 start-->
+
+<!--end-->
+
+</div>
+
+
+
+
+</div>
+</div>
+<!--您的位置布局部分-->
+<div id="breadcrumb">
+    <div id="breadcrumb_area">
+        <p>
+            您的位置：
+            首页
+            <img src="images/breadcrumb_arrow.gif" />
+            关于我
+            <img src="images/breadcrumb_arrow.gif" />
+        </p>
+     </div>
+</div>
+
+<!--关于我们内容-->
+<div id="about">
+    <div id="about-content">
+    <p>&nbsp;</p>
+    <p>刨去"铁老大"的冰冷外衣，铁道本身会是一个温情的存在。</p>
+    <p>伴随着规律的轨道声音，我们或怀着梦想来到远方，也可能是归心似箭投入家的怀抱。</p>
+    <p>而有时候，铁道上的行走，则是一种旅行的意义，不期而遇，感受未知，成就一段独特的回忆，收获一份别样的体悟。</p>
+    <p>铁道上，旅行的心情，一个铁道迷的旅行札记。</p>
+    <p style="font-size:22px"><i><a href="index.html">www.railme.com</a></i></p>
+    </div>
+</div>
+<div id="us">
+    <div id="d1">
+        <img src="images/AboutUs/lcc.jpg" />
+        
+        <p align="center"><p class="name">李晨琛</p></p>
+        <p class="word">半吊子程序猿努力添砖JAVA</p>
+    </div>
+    <div id="d2">
+        <p>教育背景：武汉大学在读硕士</p>
+        <p>爱好：旅游、游戏</p>
+        <p>地址：湖北武汉珞珈山</p>
+        <p>邮箱：lccwhu@163.com</p>
+		<p>关注我：</p>
+		<div><wb:follow-button uid="2017632265" type="gray_2" width="136" height="24" margin="0 200px"></wb:follow-button></div>
+    </div>
+    
+</div>
+
+<!--底部布局部分-->
+<div id="footer">
+    <div id="rights">
+       <p>
+		  李晨琛的旅游小站   我的位置：湖北省武汉市武昌区珞珈山 邮政编码：430072
+	   </p>
+	   <p>
+          Copyright © 2014 Arthur Li. All Rights Reserved.
+          <a href="lccwhu@163.com">和我联系</a>
+	   </p>
+    </div>
+</div>
+
+</body>
+</html>

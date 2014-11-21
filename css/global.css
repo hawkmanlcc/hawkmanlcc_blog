@@ -1,0 +1,178 @@
+/*设置大层CSS选择符*/
+body {
+	font-family:微软雅黑;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+}
+
+h1 {
+	color: #f1efec;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 23px;
+	text-indent: 11px;
+}
+h2 {
+	color: #404040;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 6px;
+}
+
+a, a:link {
+	text-decoration: none;
+	color:#000;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:visited {
+	color:#800080;
+}
+
+/*网页头部，包括LOGO、注册、登录按钮*/
+#header {
+	width:960px;
+	height:80px;
+	margin-top:0px;
+	margin:auto;
+}
+#logo_area {
+	float:left;
+	height:50px;
+	width:300px;
+	margin-top:20px;
+	margin-left:20px;
+	margin-bottom:10px;
+	cursor:pointer;
+    display:inline;
+}
+#register_area {
+	float:right;
+	height:36px;
+	width:144px;;
+	margin-top:44px;
+	margin-right:20px;
+}
+
+/*导航栏，包括各子页面的链接*/
+#banner {
+	background:url(images/banner.gif) repeat;
+	width:100%;
+    height:40px;
+}
+#menu_area {
+	width:960px;
+    height:40px;
+    margin:auto;
+}
+
+
+/*图片栏*/
+#picture {
+	width:100%;
+	height:240px;
+	background-color:#a3cfe2;
+	margin:0 0 20px 0;
+}
+#picture_area {
+	width:940px;
+	height:240px;
+	margin:auto;
+}
+
+/*博客列表*/
+#blog {
+	width:940px;
+	height:220px;
+	margin:10px auto;
+	background:url(images/bg.png) repeat-y;
+	overflow:hidden;
+	
+}
+
+/*内容框*/
+#content {
+	width:940px;
+	height:220px;
+	margin:10px auto;
+	background:url(images/content_border.png) no-repeat;
+}
+#con_youzong_border {
+	float:left;
+	width:330px;
+	height:200px;
+	margin-bottom:0px;
+	margin-left:10px;
+}
+#con_huodong_border {
+	float:left;
+	width:330px;
+	height:200px;
+	margin-bottom:0px;
+	margin-left:20px;
+}
+.con_title {
+	float:left;
+	width:150px;
+    height: 35px;
+    margin-top: 18px;
+    margin-left: 30px;
+	margin-bottom:10px;
+}
+.con_more {
+	float:left;
+	width:100px;
+	height:18px;
+	margin-top:35px;
+	margin-left:30px;
+	margin-bottom:10px;
+	text-align:right;
+}
+.con_list {
+	float:left;
+	height:140px;
+	width:320px;
+	margin-bottom:0px;
+	margin-left:5px;
+	margin-top:0px;
+	font-size:14px;
+}
+.con_list ul {
+	margin-left:0px;
+	margin-top:5px;
+	padding:0px;  
+}
+.con_list ul li {
+	display:block;
+	height:25px;
+	line-height:25px;
+	margin-left:10px;
+	padding-left:18px;
+	background-image:url(images/index_arrow.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+#con_app {
+	
+}
+
+/*底部*/
+#bottom {
+	width:940px;
+	height:120px;
+	margin:auto;
+	background-image:url(images/bottom_picture.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+#rights {
+	float:left;
+	width:700px;
+	height:40px;
+	margin-top:20px;
+	color: black;
+    font-size: 12px;
+}

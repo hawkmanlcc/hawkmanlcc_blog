@@ -1,0 +1,471 @@
+/*设置大层CSS选择符*/
+body {
+	font-family:微软雅黑;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+}
+#apDiv1 #apDiv2 img {
+	border: 4px solid #FFFFFF;
+}
+
+h1 {
+	color: #f1efec;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 23px;
+	text-indent: 11px;
+}
+h2 {
+	color: #404040;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 6px;
+}
+
+a, a:link {
+	text-decoration: none;
+	color:#000;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:visited {
+	color:#800080;
+}
+
+/*网页头部，包括LOGO、注册、登录按钮*/
+#header {
+	width:960px;
+	height:80px;
+	margin-top:0px;
+	margin:auto;
+}
+#logo_area {
+	float:left;
+	height:50px;
+	width:300px;
+	margin-top:20px;
+	margin-left:20px;
+	margin-bottom:10px;
+	cursor:pointer;
+    display:inline;
+}
+#register_area {
+	float:right;
+	height:36px;
+	width:144px;;
+	margin-top:44px;
+	margin-right:20px;
+}
+
+/*导航栏，包括各子页面的链接*/
+#banner {
+	background:url(images/banner.gif) repeat;
+	width:100%;
+    height:40px;
+}
+#menu_area {
+	width:960px;
+    height:40px;
+    margin:auto;
+}
+
+/*您的位置*/
+#breadcrumb {
+	width:960px;
+	height:30px;
+	margin:10px auto 0px;
+}
+#breadcrumb_area {
+	width:940px;
+	height:20px;
+	margin-left:10px;
+	font-size:14px;
+}
+
+/*铁道游踪主要内容*/
+#con_TourRoute {
+	width:940px;
+	height:500px;
+	margin:auto;
+}
+/*这里插flash（640*480）*/
+#con_TourRoute_flash {
+	float:left;
+	width:640px;
+	height:480px;
+	margin-top:10px;
+}
+#con_TourRoute_border {
+	float:right;
+	width:280px;
+	height:480px;
+	margin-top:10px;
+	background-image:url(images/con_TourRoute_border.png);
+	background-repeat:no-repeat;	
+}
+
+#list_1 {
+	width:260px;
+	height:237px;
+	margin:auto;
+}
+#list_2 {
+	position:relative;
+	width:260px;
+	margin:auto;
+}
+.con_title {
+	float:left;
+	width:150px;
+    height: 35px;
+	margin-top:5px;
+	margin-left:5px;
+	margin-bottom:5px;
+}
+.con_more {
+	float:left;
+	width:80px;
+	height:18px;
+	margin-top:20px;
+	margin-left:10px;
+	margin-bottom:5px;
+	text-align:right;
+}
+.con_TourRoute_box_1 {
+    height: 100px;
+    margin: 0px 5px;
+    
+    width: 240px;
+}
+.con_TourRoute_box_1 div{
+	float:left;
+	height:100px;
+	text-align:center;
+}
+.con_TourRoute_box_2 {
+	position:relative;
+    height: 100px;
+    margin: 0px 5px;
+    overflow: hidden;
+    width: 240px;
+}
+.con_TourRoute_box_2 div{
+	float:left;
+	height:100px;
+	text-align:center;
+}
+.p1 {
+	width:100px;
+	margin-left:10px;
+}
+.p2 {
+	width:100px;
+	margin-left:30px;
+}
+
+/*底部*/
+#footer {
+	width:940px;
+	height:120px;
+	margin:auto;
+	background-image:url(images/footer_picture.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+#rights {
+	float:left;
+	width:700px;
+	height:40px;
+	margin-top:20px;
+	color: black;
+    font-size: 12px;
+}
+
+/*电子地图*/
+#apDiv1 {
+	position:relative;
+	width:640px;
+	height:480px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	left:462px;
+	top:34px;
+	width:300px;
+	height:300px;
+	z-index:2;
+	visibility: hidden;
+}
+#apDiv3 {
+	position:absolute;
+	left:-5px;
+	top:486px;
+	width:304px;
+	height:34px;
+	z-index:1;
+}
+#apDiv4 {
+	position:absolute;
+	left:436px;
+	top:292px;
+	width:300px;
+	height:300px;
+	z-index:2;
+	visibility: hidden;
+}
+#apDiv5 {
+	position:absolute;
+	left:352px;
+	top:292px;
+	width:300px;
+	height:300px;
+	z-index:3;
+	visibility: hidden;
+}
+#apDiv6 {
+	position:absolute;
+	left:259px;
+	top:303px;
+	width:300px;
+	height:300px;
+	z-index:4;
+	visibility: hidden;
+}
+#apDiv7 {
+	position:absolute;
+	left:323px;
+	top:356px;
+	width:300px;
+	height:300px;
+	z-index:5;
+	visibility: hidden;
+}
+#apDiv8 {
+	position:absolute;
+	left:369px;
+	top:362px;
+	width:300px;
+	height:300px;
+	z-index:6;
+	visibility: hidden;
+}
+#apDiv9 {
+	position:absolute;
+	left:297px;
+	top:391px;
+	width:300px;
+	height:300px;
+	z-index:7;
+	visibility: hidden;
+}
+#apDiv10 {
+	position:absolute;
+	left:305px;
+	top:436px;
+	width:300px;
+	height:300px;
+	z-index:8;
+	visibility: hidden;
+}
+#apDiv11 {
+	position:absolute;
+	left:446px;
+	top:333px;
+	width:300px;
+	height:300px;
+	z-index:9;
+	visibility: hidden;
+}
+#apDiv12 {
+	position:absolute;
+	left:445px;
+	top:393px;
+	width:300px;
+	height:300px;
+	z-index:10;
+	visibility: hidden;
+}
+#apDiv13 {
+	position:absolute;
+	left:441px;
+	top:414px;
+	width:300px;
+	height:300px;
+	z-index:11;
+	visibility: hidden;
+}
+#apDiv14 {
+	position:absolute;
+	left:416px;
+	top:453px;
+	width:300px;
+	height:300px;
+	z-index:12;
+	visibility: hidden;
+}
+#apDiv15 {
+	position:absolute;
+	left:521px;
+	top:315px;
+	width:300px;
+	height:300px;
+	z-index:13;
+	visibility: hidden;
+}
+#apDiv16 {
+	position:absolute;
+	left:538px;
+	top:339px;
+	width:300px;
+	height:300px;
+	z-index:14;
+	visibility: hidden;
+}
+#apDiv17 {
+	position:absolute;
+	left:610px;
+	top:356px;
+	width:300px;
+	height:300px;
+	z-index:15;
+	visibility: hidden;
+}
+#apDiv18 {
+	position:absolute;
+	left:608px;
+	top:365px;
+	width:300px;
+	height:300px;
+	z-index:16;
+	visibility: hidden;
+}
+#apDiv19 {
+	position:absolute;
+	left:631px;
+	top:352px;
+	width:300px;
+	height:300px;
+	z-index:17;
+	visibility: hidden;
+}
+#apDiv20 {
+	position:absolute;
+	left:680px;
+	top:200px;
+	width:300px;
+	height:300px;
+	z-index:1;
+	visibility: hidden;
+}
+#apDiv21 {
+	position:absolute;
+	left:625px;
+	top:266px;
+	width:300px;
+	height:300px;
+	z-index:2;
+	visibility: hidden;
+}
+#apDiv22 {
+	position:absolute;
+	left:620px;
+	top:330px;
+	width:300px;
+	height:300px;
+	z-index:3;
+	visibility: hidden;
+}
+#apDiv23 {
+	position:absolute;
+	left:610px;
+	top:355px;
+	width:300px;
+	height:300px;
+	z-index:4;
+	visibility: hidden;
+}
+#apDiv24 {
+	position:absolute;
+	left:465px;
+	top:320px;
+	width:300px;
+	height:300px;
+	z-index:5;
+	visibility: hidden;
+}
+#apDiv25 {
+	position:absolute;
+	left:580px;
+	top:215px;
+	width:300px;
+	height:300px;
+	z-index:6;
+	visibility: hidden;
+}
+#apDiv26 {
+	position:absolute;
+	left:540px;
+	top:200px;
+	width:300px;
+	height:300px;
+	z-index:7;
+	visibility: hidden;
+}
+#apDiv27 {
+	position:absolute;
+	left:450px;
+	top:220px;
+	width:300px;
+	height:300px;
+	z-index:8;
+	visibility: hidden;
+}
+#apDiv28 {
+	position:absolute;
+	left:500px;
+	top:280px;
+	width:300px;
+	height:300px;
+	z-index:9;
+	visibility: hidden;
+}
+#apDiv29 {
+	position:absolute;
+	left:555px;
+	top:430px;
+	width:300px;
+	height:300px;
+	z-index:10;
+	visibility: hidden;
+}
+#apDiv30 {
+	position:absolute;
+	left:630px;
+	top:290px;
+	width:300px;
+	height:300px;
+	z-index:11;
+	visibility: hidden;
+}
+#apDiv31 {
+	position:absolute;
+	left:670px;
+	top:310px;
+	width:300px;
+	height:300px;
+	z-index:12;
+	visibility: hidden;
+}
+#apDiv32 {
+	position:absolute;
+	left:670px;
+	top:340px;
+	width:300px;
+	height:300px;
+	z-index:13;
+	visibility: hidden;
+}
