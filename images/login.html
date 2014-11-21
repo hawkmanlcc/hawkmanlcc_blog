@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录 - 铁道上</title>
+<link rel="shortcut icon" href="images/favicon.ico"/>
+<style type="text/css"> 
+body {
+	background:#A3CFE2;
+}
+#login_centerdiv { 
+		position:absolute; 
+		top:50%;          
+		left:50%;
+		margin:-150px 0 0 -200px;
+		width:400px; 
+		height:300px;
+		background: url(images/login.png) no-repeat;
+		border: groove 5px #1473BC;
+}
+
+#login_header {
+	height:45px;
+	border-bottom: dotted 3px;
+	border-color:#FFF;
+}
+#login_title {
+	float:left;
+	width:150px;
+	margin-left:20px;
+	margin-top:5px;
+	margin-bottom:10px;
+	font-family:微软雅黑;
+	font-size:30px;
+	color:#FFF;
+	letter-spacing:10px;
+}
+#back {
+	position:relative;
+	float:right;
+	margin-top:20px;
+	margin-right:10px;
+	font-family:微软雅黑;
+	font-size:14px;
+	color:#FFF;
+	cursor:pointer;
+}
+#login_con {
+	padding:15px;
+	height:210px;
+	font-family:微软雅黑;
+	font-size:18px;
+	color:#FFF;
+	text-align:center;
+}
+.log_input {
+	border:solid 1px #ccc;
+	background:#fff;
+	margin-left:5px;
+	width:150px;
+	-webkit-border-radius: .3em;
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:16px;
+	color:#000;
+}
+.submit {
+	display:block;
+	width:75px;
+	margin:auto;
+	border:solid 1px #cb8604;
+	background:#ffc800;
+	font-family:微软雅黑;
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffc800), to(#ffa800));
+	background: -moz-linear-gradient(top, #ffc800, #ffa800);
+ 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc800', endColorstr='#ffa800');
+	-webkit-border-radius: .3em;
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+	cursor:pointer;
+}
+</style>
+</head>
+<body>
+    <div id="login_centerdiv">
+         <div id="login_header">
+             <div id="login_title">登录
+             </div>
+             <div id="back">
+                 <a href="index.php" style="text-decoration:none; color:#FFF" >返回首页</a>
+             </div>
+         </div>
+         <div id="login_con">
+            <form action="logincheck.php" method="post">
+                <p>用户名 :<input type="text" name="username" class="log_input"></p>
+                <p>密  &nbsp;&nbsp;码 :<input type="password" name="password" class="log_input"></p>
+                  <p>  <input type="submit" value="登  录"  class="submit"/></p>                 
+            </form>
+            <p> <a href="http://www.qq.com/"><img src="images/qq_login.gif" /></a> &nbsp; 
+                <a href="http://www.sina.com.cn/"><img src="images/sina_login.png" /></a>
+            </p>
+		 </div>
+	</div>
+</body>
+</html>
